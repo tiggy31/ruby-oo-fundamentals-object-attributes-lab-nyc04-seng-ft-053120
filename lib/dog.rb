@@ -30,3 +30,17 @@ class Person
 end
 end
 
+
+
+
+class Person
+  
+  def job
+    @job
+  end
+  
+  def job=(person_job)
+    @job= person_job
+  end
+end
+
