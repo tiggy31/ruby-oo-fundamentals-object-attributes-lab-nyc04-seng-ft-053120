@@ -1,6 +1,7 @@
 class Dog
   def name=(dogs_name)
     @name = dogs_name
+    binding.pry
   end
   
   def name
@@ -10,4 +11,4 @@ class Dog
 end
 
 
-Dog.new = "Blue"
+Dog.name = "Blue"
