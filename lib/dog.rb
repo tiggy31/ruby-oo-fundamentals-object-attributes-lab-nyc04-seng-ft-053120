@@ -20,13 +20,13 @@ end
 
 class Person
   
-  def job
-    @job
+  def name
+    @name
   end
   
   
   def name=(person_name)
-    @job = person_name
+    @name = person_name
 end
 end
 
