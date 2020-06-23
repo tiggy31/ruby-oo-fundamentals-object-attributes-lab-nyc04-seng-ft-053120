@@ -9,3 +9,5 @@ class Dog
   
 end
 
+
+Dog.new = "Blue"
